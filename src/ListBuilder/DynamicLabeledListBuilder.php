@@ -1,6 +1,6 @@
 <?php
 
-namespace SevenGroupFrance\SuluLabelAsHeadline\ListBuilder;
+namespace SevenGroupFrance\SuluLabelAsHeading\ListBuilder;
 
 use Sulu\Bundle\FormBundle\Entity\Dynamic;
 use Sulu\Bundle\FormBundle\Entity\Form;
