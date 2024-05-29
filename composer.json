@@ -14,20 +14,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "SevenGroupFrance\\SuluLabelAsHeadline\\": "src"
+            "SevenGroupFrance\\SuluLabelAsHeading\\": "src"
         }
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/sevenGroupFrance/sulu-label-as-heading-bundle/"
-        },
-        {
-            "type": "path",
-            "url": "../../../assets/admin/node_modules",
-            "options": {
-                "symlink": true
-            }
         }
     ]
 }
