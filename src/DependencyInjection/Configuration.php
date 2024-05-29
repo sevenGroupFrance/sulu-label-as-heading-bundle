@@ -1,6 +1,6 @@
 <?php
 
-namespace SevenGroupFrance\SuluLabelAsHeadline\DependencyInjection;
+namespace SevenGroupFrance\SuluLabelAsHeading\DependencyInjection;
 
 use Sulu\Bundle\FormBundle\DependencyInjection\SuluFormExtension;
 use Sulu\Bundle\FormBundle\Form\HandlerInterface;
