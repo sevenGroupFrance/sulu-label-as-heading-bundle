@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace SevenGroupFrance\SuluLabelAsHeadline\DependencyInjection;
+namespace SevenGroupFrance\SuluLabelAsHeading\DependencyInjection;
 
 use Sulu\Bundle\FormBundle\Controller\FormTokenController;
 use Sulu\Bundle\FormBundle\Controller\FormWebsiteController;
