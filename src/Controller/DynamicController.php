@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace SevenGroupFrance\SuluLabelAsHeadline\Controller;
+namespace SevenGroupFrance\SuluLabelAsHeading\Controller;
 
 use Doctrine\ORM\EntityManager;
 use FOS\RestBundle\Controller\ControllerTrait;
