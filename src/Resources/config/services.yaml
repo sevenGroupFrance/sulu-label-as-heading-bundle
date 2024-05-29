@@ -1,0 +1,19 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+    
+    Sulu\Bundle\FormBundle\Controller\DynamicController: ~
+
+    SevenGroupFrance\SuluLabelAsHeadline\Controller\DynamicController:
+        autowire: true
+        decorates: Sulu\Bundle\FormBundle\Controller\DynamicController
+        arguments: ['@.inner']
+
+    Sulu\Bundle\FormBundle\ListBuilder\DynamicListBuilder: ~
+
+    SevenGroupFrance\SuluLabelAsHeadline\ListBuilder\DynamicLabeledListBuilder:
+        autowire: true
+        decorates: sulu_form.list_builder.dynamic_list_builder
+        arguments: ['@.inner']
+
