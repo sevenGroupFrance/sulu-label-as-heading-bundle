@@ -1,6 +1,6 @@
 <?php
 
-namespace SevenGroupFrance\SuluLabelAsHeadline;
+namespace SevenGroupFrance\SuluLabelAsHeading;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
